@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExt_DLL", "MathExt_DLL\MathExt_DLL.csproj", "{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExt_Testbench", "MathExt_Testbench\MathExt_Testbench.csproj", "{F24E23BA-098E-4519-8213-3BF91917504D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC} = {8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8971EEE4-B1C5-4E01-8D1B-57602A48EEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24E23BA-098E-4519-8213-3BF91917504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24E23BA-098E-4519-8213-3BF91917504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24E23BA-098E-4519-8213-3BF91917504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24E23BA-098E-4519-8213-3BF91917504D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
